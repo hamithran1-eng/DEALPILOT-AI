@@ -1,0 +1,6 @@
+{
+  "name": "DealPilot AI",
+  "description": "Production-oriented AI Sales Pipeline Autopilot for B2B teams: lead intelligence, explainable scoring, approved outreach drafts, and response automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

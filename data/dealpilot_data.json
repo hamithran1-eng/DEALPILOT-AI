@@ -1,0 +1,349 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "email": "alex.founder@codefusion.internal",
+      "name": "Alex Vance",
+      "role": "owner",
+      "password_hash": "dealpilot_secure_2026",
+      "id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "created_at": "2026-10-13T06:20:48.694Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "04c30f4d4a7936ba411decba0ee5b9b5c89c7cc6fdb4c541e86a2abffcf8b9df",
+      "user_id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "expires_at": "2026-11-12T06:20:48.695Z",
+      "created_at": "2026-10-13T06:20:48.695Z"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "name": "CodeFusion Enterprise",
+      "slug": "codefusion-enterprise",
+      "owner_id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "currency": "INR",
+      "settings": {
+        "ai_scoring_auto": true,
+        "ai_model": "gemini-3.8-flash",
+        "sender_email": "",
+        "sender_name": "CodeFusion Enterprise",
+        "email_provider": "resend",
+        "resend_api_key": ""
+      },
+      "created_at": "2026-10-13T06:20:48.695Z"
+    }
+  ],
+  "leads": [
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "first_name": "Sarah",
+      "last_name": "Chen",
+      "email": "sarah.chen@novacloud.io",
+      "job_title": "VP of Enterprise Infrastructure",
+      "company_name": "NovaCloud Technologies",
+      "company_domain": "novacloud.io",
+      "industry": "Cloud & DevOps",
+      "deal_value": 45000,
+      "stage": "meeting_scheduled",
+      "status": "active",
+      "source": "Manual Entry",
+      "score": 88,
+      "notes": "Met at CloudScale 2026. Evaluating sales pipeline automation.",
+      "id": "30a90b6f-9f66-448c-8dc0-b965181f92a6",
+      "created_at": "2026-10-13T06:21:00.367Z",
+      "updated_at": "2026-10-13T06:21:46.254Z",
+      "score_explanation": "Sarah Chen demonstrates exceptionally high qualification due to her executive authority as VP of Enterprise Infrastructure and a defined $45,000 opportunity. Although NovaCloud Technologies' exact employee size is unconfirmed, active interest established at CloudScale 2026 in sales pipeline automation confirms strong purchase intent. Direct reachability through corporate email and a relevant tech domain further underscores this high-value opportunity.",
+      "score_factors": [
+        {
+          "name": "Decision Authority Fit",
+          "score": 95,
+          "weight": 0.3,
+          "reasoning": "Holds a VP title in Enterprise Infrastructure, representing high decision-making power and budget control."
+        },
+        {
+          "name": "Company & Industry Viability",
+          "score": 80,
+          "weight": 0.25,
+          "reasoning": "Operates in the high-growth Cloud & DevOps sector with a corporate domain, though company size remains unknown."
+        },
+        {
+          "name": "Deal Potential & Intent",
+          "score": 85,
+          "weight": 0.25,
+          "reasoning": "Identified deal size of $45,000 with explicit intent documented around evaluating sales pipeline automation from CloudScale 2026."
+        },
+        {
+          "name": "Information Completeness & Reachability",
+          "score": 90,
+          "weight": 0.2,
+          "reasoning": "Direct corporate email address, full name, company name, and domain are provided, with only company headcount missing."
+        }
+      ],
+      "scored_at": "2026-10-13T06:21:06.853Z",
+      "scoring_model": "gemini-3.8-flash"
+    },
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "first_name": "Marcus",
+      "last_name": "Cole",
+      "email": "marcus.cole@solargrid.tech",
+      "job_title": "Director",
+      "company_name": "SolarGrid",
+      "stage": "lost",
+      "status": "disqualified",
+      "source": "Manual Entry",
+      "score": 45,
+      "id": "af962e69-5137-4c8e-a242-9cc4d231d85b",
+      "created_at": "2026-10-13T06:22:00.757Z",
+      "updated_at": "2026-10-13T06:22:14.991Z",
+      "score_explanation": "Marcus Cole holds a high-authority Director title and has a valid corporate email, presenting strong individual reachability and decision-making power. However, critical firmographic details such as industry, company size, and deal value are completely unknown, and the deal is only at the new stage. Consequently, the overall qualification score is moderate due to severe data gaps despite promising persona seniority.",
+      "score_factors": [
+        {
+          "name": "Decision Authority Fit",
+          "score": 85,
+          "weight": 0.3,
+          "reasoning": "The contact holds the title of Director, representing significant executive decision-making authority."
+        },
+        {
+          "name": "Company & Industry Viability",
+          "score": 20,
+          "weight": 0.25,
+          "reasoning": "Company size, industry, and domain are listed as unknown, making commercial viability impossible to verify from the provided data."
+        },
+        {
+          "name": "Deal Potential & Intent",
+          "score": 15,
+          "weight": 0.25,
+          "reasoning": "Deal value is unknown, notes are absent, and the pipeline stage is set to new without recorded intent signals."
+        },
+        {
+          "name": "Information Completeness & Reachability",
+          "score": 55,
+          "weight": 0.2,
+          "reasoning": "A full name and direct corporate email are provided, though key profile attributes like domain and firmographics are missing."
+        }
+      ],
+      "scored_at": "2026-10-13T06:22:10.013Z",
+      "scoring_model": "gemini-3.8-flash"
+    }
+  ],
+  "lead_stage_history": [
+    {
+      "id": "1e2ea53b-042d-4f1f-9549-f95c2c2800e0",
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "lead_id": "30a90b6f-9f66-448c-8dc0-b965181f92a6",
+      "from_stage": "new",
+      "to_stage": "new",
+      "reason": "Lead created",
+      "changed_by": "system",
+      "created_at": "2026-10-13T06:21:00.367Z"
+    },
+    {
+      "id": "ba7ddf9a-a940-4c10-8797-e290f87303a1",
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "lead_id": "30a90b6f-9f66-448c-8dc0-b965181f92a6",
+      "from_stage": "new",
+      "to_stage": "meeting_scheduled",
+      "reason": "Stage updated via CRM",
+      "changed_by": "reply_processor",
+      "created_at": "2026-10-13T06:21:46.254Z"
+    },
+    {
+      "id": "8fedf60d-9629-4f2d-aa1d-e0f13aa388db",
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "lead_id": "af962e69-5137-4c8e-a242-9cc4d231d85b",
+      "from_stage": "new",
+      "to_stage": "new",
+      "reason": "Lead created",
+      "changed_by": "system",
+      "created_at": "2026-10-13T06:22:00.757Z"
+    },
+    {
+      "id": "80836df9-f355-43b5-bd1b-3b1d93ab5e33",
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "lead_id": "af962e69-5137-4c8e-a242-9cc4d231d85b",
+      "from_stage": "new",
+      "to_stage": "lost",
+      "reason": "Stage updated via CRM",
+      "changed_by": "unsubscribe_trigger",
+      "created_at": "2026-10-13T06:22:14.991Z"
+    }
+  ],
+  "outreach_templates": [
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "name": "Executive Value Proposition",
+      "category": "cold_outreach",
+      "subject_template": "Quick question regarding {{company_name}}'s sales pipeline",
+      "body_template": "Hi {{first_name}},\n\nI noticed your work leading initiatives at {{company_name}}. We built DealPilot to help B2B revenue teams automate deal prioritization and high-intent engagement without manual overhead.\n\nWould you be open to a 10-minute briefing next Tuesday to see how peers in {{industry}} are scaling their pipeline?\n\nBest regards,\n{{sender_name}}",
+      "id": "e5f100bc-d0f7-4f84-bace-3c23d0a1e47e",
+      "created_at": "2026-10-13T06:20:48.695Z"
+    },
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "name": "Strategic Follow-Up",
+      "category": "follow_up",
+      "subject_template": "Following up: DealPilot AI for {{company_name}}",
+      "body_template": "Hi {{first_name}},\n\nCircling back on my previous note. Thought this might be top of mind given {{company_name}}'s growth in {{industry}}.\n\nDo you have 5 minutes this week for a quick perspective exchange?\n\nBest,\n{{sender_name}}",
+      "id": "2ca7a1c1-462b-4c64-b120-4da528a48121",
+      "created_at": "2026-10-13T06:20:48.695Z"
+    },
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "name": "Meeting Confirmation & Talk-Track",
+      "category": "meeting_request",
+      "subject_template": "Meeting confirmed: {{company_name}} x DealPilot briefing",
+      "body_template": "Hi {{first_name}},\n\nLooking forward to speaking. I have prepared custom benchmarks for {{industry}} organizations and look forward to sharing our latest automation playbooks.\n\nTalk soon,\n{{sender_name}}",
+      "id": "48d003c7-ef66-40ea-8ad4-0c4c430b9f1f",
+      "created_at": "2026-10-13T06:20:48.695Z"
+    }
+  ],
+  "outreach_drafts": [
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "lead_id": "30a90b6f-9f66-448c-8dc0-b965181f92a6",
+      "subject": "Automating pipeline cadences at NovaCloud",
+      "body": "Hi Sarah, It was great crossing paths at CloudScale 2026. Leading enterprise infrastructure at NovaCloud Technologies, you understand how vital operational consistency is across fast-moving deployment environments. Given your team is currently evaluating pipeline automation, CodeFusion Enterprise helps cloud leaders systematically streamline their pipeline cadences without introducing technical overhead or workflow disruption. We have helped similar high-growth cloud organizations eliminate manual friction while maintaining full visibility into delivery cycles. Would you be open to a brief 10-minute briefing next Tuesday to explore how this approach fits into NovaCloud's immediate automation goals? Best regards, CodeFusion Enterprise",
+      "ai_prompt_used": "Brief 10-minute briefing next Tuesday on automating Cloud pipeline cadences",
+      "status": "approved",
+      "id": "afa420b6-1d0f-4173-b58f-d2a787430815",
+      "created_at": "2026-10-13T06:21:26.629Z",
+      "updated_at": "2026-10-13T06:21:33.895Z",
+      "approved_by": "Alex Vance",
+      "approved_at": "2026-10-13T06:21:33.895Z"
+    },
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "lead_id": "af962e69-5137-4c8e-a242-9cc4d231d85b",
+      "subject": "Scaling SolarGrid's enterprise infrastructure",
+      "body": "Hi Marcus,\n\nLeading strategic initiatives at SolarGrid requires balancing aggressive operational expansion with reliable, resilient technical performance.\n\nAt CodeFusion Enterprise, we partner with engineering and operations leaders to modernize mission-critical systems, streamline distributed data workflows, and remove architectural bottlenecks before they impact delivery. Given SolarGrid's growing footprint, we recently helped a comparable B2B infrastructure provider reduce system latency by 35% while maintaining strict compliance standards.\n\nWould you be open to a concise 10-minute briefing next Tuesday to see if our technical approach aligns with your team's roadmap this quarter?\n\nBest regards,\nCodeFusion Enterprise",
+      "status": "approved",
+      "id": "b5d48322-b045-48ec-8cf4-e983f1ebc0a1",
+      "created_at": "2026-10-13T06:22:57.697Z",
+      "updated_at": "2026-10-13T06:23:04.255Z",
+      "approved_by": "Alex Vance",
+      "approved_at": "2026-10-13T06:23:04.255Z"
+    }
+  ],
+  "outreach_messages": [],
+  "reply_classifications": [
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "lead_id": "30a90b6f-9f66-448c-8dc0-b965181f92a6",
+      "inbound_text": "Hi Alex, sounds interesting! Let's schedule a call next Tuesday at 2pm EST to review the architecture.",
+      "sender_email": "sarah.chen@novacloud.io",
+      "category": "meeting_request",
+      "confidence": 0.98,
+      "explanation": "The prospect explicitly proposed scheduling a call and offered a specific day and time (next Tuesday at 2pm EST) to discuss the architecture.",
+      "recommended_action": "Send a calendar invite for next Tuesday at 2pm EST along with video conferencing details and a confirmation reply.",
+      "human_reviewed": false,
+      "id": "e390523a-0efd-4aec-be90-83aa7464ea3d",
+      "created_at": "2026-10-13T06:21:46.254Z"
+    },
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "lead_id": "af962e69-5137-4c8e-a242-9cc4d231d85b",
+      "inbound_text": "Please unsubscribe me immediately and stop sending emails.",
+      "sender_email": "marcus.cole@solargrid.tech",
+      "category": "unsubscribe",
+      "confidence": 1,
+      "explanation": "The prospect explicitly demands to be unsubscribed and instructs the sender to immediately cease all email communication.",
+      "recommended_action": "Immediately opt the contact out, add them to the global suppression list in the CRM and sales outreach tool, and confirm no further automated or manual emails are sent.",
+      "human_reviewed": false,
+      "id": "1f67181e-cfbf-4628-8a66-d2eb091c3ad2",
+      "created_at": "2026-10-13T06:22:14.990Z"
+    }
+  ],
+  "tasks": [],
+  "suppression_list": [
+    {
+      "id": "a60d6450-e79b-4ac1-bebb-302739e3f341",
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "email": "marcus.cole@solargrid.tech",
+      "reason": "unsubscribed",
+      "added_at": "2026-10-13T06:22:14.990Z"
+    }
+  ],
+  "notifications": [
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "user_id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "title": "New Outreach Draft Ready",
+      "message": "Draft created for Sarah Chen (NovaCloud Technologies). Review and approve before sending.",
+      "type": "info",
+      "id": "8fd49c07-6b84-4740-9409-10a84ac4a72a",
+      "read": false,
+      "created_at": "2026-10-13T06:21:26.629Z"
+    },
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "user_id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "title": "Inbound Reply: MEETING_REQUEST",
+      "message": "Sarah Chen: \"Hi Alex, sounds interesting! Let's schedule a call next Tuesday at 2pm EST to re...\"",
+      "type": "info",
+      "id": "02a34700-4222-4912-a695-5105ed8de18f",
+      "read": false,
+      "created_at": "2026-10-13T06:21:46.255Z"
+    },
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "user_id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "title": "Inbound Reply: UNSUBSCRIBE",
+      "message": "Marcus Cole: \"Please unsubscribe me immediately and stop sending emails....\"",
+      "type": "alert",
+      "id": "1bcccc6d-5fad-451c-9791-ed7b83c1e6e8",
+      "read": false,
+      "created_at": "2026-10-13T06:22:14.991Z"
+    },
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "user_id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "title": "New Outreach Draft Ready",
+      "message": "Draft created for Marcus Cole (SolarGrid). Review and approve before sending.",
+      "type": "info",
+      "id": "69002e1e-a2e2-4046-9328-a7181f39e808",
+      "read": false,
+      "created_at": "2026-10-13T06:22:57.697Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "user_id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "action": "account_created",
+      "entity_type": "user",
+      "entity_id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "id": "8993459b-0398-4724-b758-77c81a1dfd67",
+      "created_at": "2026-10-13T06:20:48.695Z"
+    },
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "user_id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "action": "lead_created",
+      "entity_type": "lead",
+      "entity_id": "30a90b6f-9f66-448c-8dc0-b965181f92a6",
+      "details": {
+        "name": "Sarah Chen",
+        "email": "sarah.chen@novacloud.io"
+      },
+      "id": "ba8be2c6-527d-4a2c-b496-a988b7130499",
+      "created_at": "2026-10-13T06:21:06.853Z"
+    },
+    {
+      "workspace_id": "685cc90e-eed8-4c11-a2de-41310eb61822",
+      "user_id": "15c2228f-18dc-45fd-acca-e9f2b9992fd8",
+      "action": "lead_created",
+      "entity_type": "lead",
+      "entity_id": "af962e69-5137-4c8e-a242-9cc4d231d85b",
+      "details": {
+        "name": "Marcus Cole",
+        "email": "marcus.cole@solargrid.tech"
+      },
+      "id": "eb8edf0b-0273-48c2-9633-abb3394e7fb1",
+      "created_at": "2026-10-13T06:22:10.013Z"
+    }
+  ]
+}
